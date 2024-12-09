@@ -3,5 +3,5 @@
 #  http://localhost:3000
 # aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 677276101971.dkr.ecr.us-east-1.amazonaws.com
 # docker build -t demo/node-app .
-# docker tag demo/node-app:latest 854733186358.dkr.ecr.us-east-1.amazonaws.com/demo/node-app:latest
-# docker push 854733186358.dkr.ecr.us-east-1.amazonaws.com/demo/node-app:latest
+# docker tag demo/node-app:latest 677276101971.dkr.ecr.us-east-1.amazonaws.com/demo/node-app:latest
+# docker push 677276101971.dkr.ecr.us-east-1.amazonaws.com/demo/node-app:latest
